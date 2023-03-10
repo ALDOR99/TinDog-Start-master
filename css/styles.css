@@ -13,10 +13,13 @@ h6 {
 }
 
 p {
-  color: #000;
+  color: #8f8f8f;
 }
 
+/*-----------------------------------------------------------------*/
+
 /* Headings */
+
 .big-heading {
   font-family: "Montserrat-Black";
   font-size: 3.5rem;
@@ -28,12 +31,30 @@ p {
   line-height: 1.5;
 }
 
-/* Containers  */
+/*-----------------------------------------------------------------*/
+
+/* Containers */
+
 .container-fluid {
   padding: 7% 15%;
 }
 
-/* navigation bar */
+/*-----------------------------------------------------------------*/
+
+/* Sections */
+
+.colored-section {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.white-section {
+  background-color: #fff;
+}
+
+/*-----------------------------------------------------------------*/
+
+/* Navigation Bar */
 
 .navbar {
   padding: 0 0 4.5rem;
@@ -54,10 +75,15 @@ p {
   font-family: "Montserrat-Light";
 }
 
-/* download buttons */
+/*-----------------------------------------------------------------*/
+
+/* Buttons */
+
 .download-button {
   margin: 5% 3% 5% 0;
 }
+
+/*-----------------------------------------------------------------*/
 
 /* Title Section */
 
@@ -71,18 +97,23 @@ p {
   padding: 3% 15% 7%;
 }
 
-/* Title İmage */
+/*-----------------------------------------------------------------*/
+
+/* Title Image */
 
 .title-image {
   width: 60%;
   transform: rotate(25deg);
-
-  right: 30px;
+  position: absolute;
+  right: 30%;
 }
 
-/* features section */
+/*-----------------------------------------------------------------*/
+
+/* Features Section */
+
 #features {
-  background-color: #fff;
+  position: relative;
 }
 
 .feature-title {
@@ -90,7 +121,7 @@ p {
 }
 
 .feature-box {
-  padding: 5%;
+  padding: 4.5%;
 }
 
 .icon {
@@ -102,10 +133,12 @@ p {
   color: #ff4c68;
 }
 
-/* testimonials section */
+/*-----------------------------------------------------------------*/
+
+/* Testimonial Section */
+
 #testimonials {
   background-color: #ef8172;
-  color: #fff;
 }
 
 .testimonial-text {
@@ -114,22 +147,25 @@ p {
 }
 
 .testimonial-image {
-  width: 20%;
+  width: 10%;
   border-radius: 100%;
   margin: 20px;
 }
 
 #press {
   background-color: #ef8172;
-
   padding-bottom: 3%;
 }
+
 .press-logo {
   width: 15%;
   margin: 20px 20px 50px;
 }
 
-/* pricing section*/
+/*-----------------------------------------------------------------*/
+
+/* Pricing Section */
+
 #pricing {
   padding: 100px;
 }
@@ -143,14 +179,11 @@ p {
   padding: 3% 2%;
 }
 
-/* CTA section */
+/*-----------------------------------------------------------------*/
 
-#cta {
-  background-color: #ff4c68;
-  color: #fff;
-}
+/* CTA Section */
 
-/*FOOTER SECTİON */
+/* Footer Section */
 
 .social-icon {
   margin: 20px 10px;
@@ -166,3 +199,5 @@ p {
     transform: rotate(0);
   }
 }
+
+/*-----------------------------------------------------------------*/
